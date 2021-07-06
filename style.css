@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#heading{
+    display: flex;
+    
+    background-image: linear-gradient(135deg,#5433ff, #20bdff, #a5fecb);
+}
+.half-width{
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.half-width a{
+   padding: 30px 20px;
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+   display: inline-block;
+}
+.half-width a:hover{
+    color: rgb(5, 212, 231);
+    text-decoration: underline;
+}
+/* header ends here */
