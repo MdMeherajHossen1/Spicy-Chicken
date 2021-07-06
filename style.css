@@ -2,26 +2,45 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 40px;
+}
+.s-font{
+    color: rgb(30, 255, 0);
+}
 #heading{
     display: flex;
-    
+    margin-bottom: 0px;
     background-image: linear-gradient(135deg,#5433ff, #20bdff, #a5fecb);
 }
 .half-width{
     width: 50%;
-    text-align: center;
-    color: white;
+   padding-left: 50px;
+    
 }
 
 .half-width a{
-   padding: 30px 20px;
+   padding: 10px 20px;
    text-decoration: none;
    color: white;
    font-weight: 700;
    display: inline-block;
+   margin-top: 20px;
 }
-.half-width a:hover{
-    color: rgb(5, 212, 231);
-    text-decoration: underline;
-}
+
 /* header ends here */
+
+/* profile starts from here */
+#profile{
+    display: flex;
+
+}
+.half-width img{
+    width: 80%;
+}
+#btn{
+    background-image: linear-gradient(45deg,orange,red);
+    padding: 10px 30px;
+    border-radius: 21px;
+    
+}
